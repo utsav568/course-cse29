@@ -52,7 +52,7 @@ a:first-child{
  }
  .line::before{
     content:"esse";
-    color:brown
+    color:brown;
  }
  .line::selection{
     background-color: black;
