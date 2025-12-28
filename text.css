@@ -1,0 +1,60 @@
+.hover:hover{
+    background-color: black;
+    color:rgb(74, 9, 9);
+   
+
+} 
+input:focus{
+    color:red;
+    background-color: burlywood;
+    display:block;
+    margin:20px;
+
+    font-size:25px;
+}
+input{
+    background-color: rgb(179, 36, 70);
+    border:1px solid black;
+}
+/* a:hover{
+    color:pink;
+    background-color: blue;
+
+}
+a:active{
+    color:chartreuse;
+
+}
+a:visited{
+    color: black;
+}
+a:first-child{
+    color:yellow;
+} */
+ a:first-child{
+    color:blue;
+    background-color: aquamarine;
+ }
+ a:nth-child(3){
+    background-color: yellow;
+ }
+ p:nth-child(even){
+    background-color: bisque;
+    min-width:40px;
+    display: inline-block;
+ }
+ .line::first-line{
+    color:aqua;
+ }
+ .line::after{
+    content:"voluptas";
+    color:aquamarine;
+ }
+ .line::before{
+    content:"esse";
+    color:brown
+ }
+ .line::selection{
+    background-color: black;
+    color:yellow;
+ }
