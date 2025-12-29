@@ -16,7 +16,7 @@ div::after{
             content: "black";
         }
 }
-@media (min-width:400) and (max-width: 786px) {
+@media (min-width:400) and (max-width: 786px) /*or(400<=width<=786)*/{ 
     body{
         background-color:palevioletred;
     }
