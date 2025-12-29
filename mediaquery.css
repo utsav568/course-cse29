@@ -31,7 +31,7 @@ div::after{
     div::after{
         content:"hellow media";
     }
-}
+}       
 @media (min-width:900px){
     body{
         background-color: aquamarine;
