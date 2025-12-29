@@ -1,0 +1,43 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: "welcom to demo";
+}
+@media (min-width:400px){
+        body{
+            background-color: rgb(30, 96, 23);
+        }
+        div::after{
+            content: "black";
+        }
+}
+@media (min-width:400) and (max-width: 786px) {
+    body{
+        background-color:palevioletred;
+    }
+    div::after{
+        content:"hello course";
+    }
+}
+@media (min-width: 786px){
+    body{
+        background-color: rgb(28, 7, 75);
+    }
+    div::after{
+        content:"hellow media";
+    }
+}
+@media (min-width:900px){
+    body{
+        background-color: aquamarine;
+    }
+    div::after {
+        content: "woah is working";
+    }
+
+}
