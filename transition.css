@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: black;
+    transition: width 2s,height 3s;
+    /* transition-timing-function: ease-out; */
+    transition-delay: 2s;
+}
+div:hover{
+    width:200px;
+    height:500px;
+}
