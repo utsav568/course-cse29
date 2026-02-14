@@ -69,3 +69,10 @@ a:first-child{
 
     
 }
+nav a{
+    color:#f00;
+    text-decoration: none;
+}
+span>h4{
+    color:rosybrown;
+}

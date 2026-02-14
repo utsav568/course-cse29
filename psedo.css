@@ -1,0 +1,41 @@
+button:hover{
+    background-color:black;
+    color:white;
+    text-align: center;
+
+}
+p{
+    text-decoration: underline;
+    color:red;
+}
+p:hover{
+    color:aqua;
+    text-decoration: none;
+}
+button:active{
+    color:pink;
+    background-color: aquamarine;
+    border: 2px solid goldenrod;
+}
+input[type="radio"]:checked+label{
+    color:rgb(58, 14, 41);
+    font-weight: bold;
+
+}
+div:nth-of-type(2){
+    background-color: rgb(178, 55, 155);
+    color:white
+}
+#select::first-letter{
+    color:black;
+}
+.ese::first-line{
+    color:black;
+}
+#corect::selection{
+    background-color: rgb(148, 87, 7);
+
+}
+
+
+
