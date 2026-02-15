@@ -3,12 +3,29 @@ div{
     width:100px;
      position: relative;
     background-color: red;
-     animation-name: colorchange;
-    animation-duration: 8s;
+     /* animation-name: colorchange;
+    animation-duration: 2s;
     animation-delay: 3s;
-     animation-iteration-count: 3;
-     animation-direction: reverse;
+      animation-iteration-count: 3; 
+     animation-direction: reverse; 
+      animation-fill-mode: forwards; 
+     animation-fill-mode: backwards; */
+     /* short hand */
+     animation:colorchange 3s linear 2s  3  reverse forwards;
 }
+.ease{
+    animation-timing-function: ease;
+}
+.linear{
+    animation-timing-function: linear;
+}
+.ease-in{
+  animation-timing-function: ease-in;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+
 @keyframes colorchange {
     0%{
         background-color: aqua;

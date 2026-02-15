@@ -1,0 +1,21 @@
+p::first-line{
+    background-color: beige;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: blue dotted;
+}
+p::selection{
+    background-color: black;
+}
+p::first-letter{
+    color: mediumorchid;
+    
+}
+p::after{
+    content:"utsav";
+    color:mediumorchid;
+}
+p::before{
+    content:"shivshant";
+    color:mediumseagreen;
+}

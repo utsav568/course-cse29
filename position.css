@@ -17,6 +17,6 @@
  }
  .box3 {
     background-color:rgb(54, 54, 168);
-    /* position: sticky;
-    top:1px; */
+    position: sticky;
+    top:1px;
  }

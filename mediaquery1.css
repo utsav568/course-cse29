@@ -9,7 +9,7 @@ div{
     text-align: center;
     font-size: x-large;
 }
-@media (max-width: 400) {
+@media (max-width<=400px) {
    body{
     background-color: aquamarine;
    }
@@ -18,7 +18,7 @@ div{
    }
 
 }
-@media(min-width:400px) and (max-width:700px){
+@media(400px<=width<=700px){
     body{
         background-color: rgb(63, 63, 4);
 
@@ -27,7 +27,7 @@ div{
         content:"welcom my world home"
     }
 }
-    @media(min-width:700px){
+    @media(min-width>=700px){
         body{
             background-color: blueviolet;
         }
