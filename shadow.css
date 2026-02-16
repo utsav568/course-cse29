@@ -1,0 +1,13 @@
+div{
+    height:200px;
+    width: 200px;
+    background-color: aqua;
+    border:2px solid black;
+    text-align: center;
+    margin-top:10px auto;
+    box-shadow: 3px 4px 10px black;
+    padding-top:50px;
+    margin:200px;
+    margin-left:500px;
+
+}

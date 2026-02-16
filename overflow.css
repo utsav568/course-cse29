@@ -1,0 +1,27 @@
+ p{
+    height:250px;
+    width:250px;
+    border:2px solid rgb(23, 139, 118);
+    overflow: hidden;
+   overflow:scroll; 
+   
+    /* position: fixed; */
+     overflow: auto;  
+}  
+.one{
+    height:50px;
+    width:50px;
+    background-color: magenta;
+    position:absolute;
+    top: 0;
+     z-index: -1; 
+}
+.two{
+    height:50px;
+    width:50px;
+    background-color: mediumseagreen;
+    position: absolute;
+    top:0;
+    z-index: -2;
+ 
+}
