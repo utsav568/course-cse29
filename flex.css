@@ -16,14 +16,15 @@
   align-items:center;
   /* gap:10px; */
   /* column-gap: 200px; */
-  flex-grow: unset;
+  /* flex-grow: unset; */
 }
 /* }
  .box{
     height:100px;
     width:100px;} */
 
-
+/* flex-flow:dircetion wrap ; eshme hum do chiz ko dete h */
+/*  */
 .box1{
     background-color: aqua;
 }
