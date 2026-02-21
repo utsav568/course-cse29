@@ -4,9 +4,10 @@
     background-color:magenta;
     display: grid;
     grid-template-rows: repeat(5,1fr);
-    grid-template-columns: repeat(5,1fr);
-    grid-template-columns: repeat(5,1fr);
-    /* grid-template-columns ya row ho we written in :1fr 1fr 1fr 1fr ;is same as repeat(5,1fr) */
+    grid-template-columns: repeat(3,1fr);
+  
+    grid-gap: 10px;
+
 }
 .iteam{
     background-color: rgb(126, 8, 20);
