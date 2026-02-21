@@ -15,6 +15,7 @@
 .box1{
     background-color: aqua;
   flex:2 0 200px;
+  /* flex: flex grow ,shrink,basis*/
     
 }
 .box2{
